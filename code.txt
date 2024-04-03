@@ -1,0 +1,21 @@
+->helperText(function (Set $set, Get $get, $state) {
+
+//                                                        $product = Product::query()->with('productUnit')->where('id', $get('product'))->first();
+//                                                        $units = $product?->productUnit;
+//                                                        $currentQuantity = intval(Item::query()
+//                                                            ->where('product_id', $get('product'))
+//                                                            ->sum('quantity') ?? '0');
+//
+//
+//                                                        $unitCount = intval(
+//                                                            isset($units)
+//                                                                ? $units->where('unit_id', $get('unit'))?->value('count')
+//                                                                : '0'
+//                                                        );
+//
+//                                                        dd($product->productUnit?->firstWhere('unit_id', $get('unit')));
+//
+//                                                        $quantity = $currentQuantity * $unitCount;
+//                                                        return "الكمية المتاحة ";
+                                                        return "";
+                                                    })
